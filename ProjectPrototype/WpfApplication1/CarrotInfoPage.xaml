@@ -1,0 +1,23 @@
+﻿<Page x:Name="CarrotInfoPage1" x:Class="WpfApplication1.CarrotInfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="CarrotInfoPage">
+
+    <Canvas Background="#FFF1F7EF">
+        <Label Content="Carrot" Canvas.Left="162" Canvas.Top="10" Width="91" FontSize="20"/>
+        <Button Content="Back" Width="48"/>
+        <Image Height="113" Canvas.Left="10" Canvas.Top="32" Width="116" Source="carrot.jpg"/>
+        <TextBox Height="104" Canvas.Left="48" TextWrapping="Wrap" Text="" Canvas.Top="170" Width="218"/>
+        <TextBlock Canvas.Left="145" TextWrapping="Wrap" Text="Sun:  Full Sun
+                   Water: 1/day
+                   Space:15-25cm
+                   Growing Time: 2-3 weeks
+                   Poisonus: No 
+                   " Canvas.Top="47" Height="82" Width="136"/>
+        <Label Content="Notes" Canvas.Left="131" Canvas.Top="144"/>
+    </Canvas>
+</Page>

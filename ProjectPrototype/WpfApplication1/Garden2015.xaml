@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfApplication1.Garden2015"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              d:DesignHeight="452" Width="813">
+    <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE6FFE5">
+        <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
+        <Label Content="2015" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0"/>
+        <ListBox Height="200" Canvas.Left="60" Canvas.Top="120" Width="336" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black">
+            <Button x:Name="Mint_Button" Background="#FF0FA624" Content="Mint" Height="40" Width="306" FontSize="16"/>
+        </ListBox>
+        <TextBox x:Name="_2015Notes" Height="200" Canvas.Left="462" TextWrapping="Wrap" Text="" Canvas.Top="120" Width="305" BorderBrush="Black" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="Remove_Button" Content="Remove" Canvas.Left="331" Canvas.Top="325" Width="65" FontSize="16" Click="Remove_Button_Click"/>
+        <Label Content="Notes" Canvas.Left="462" Canvas.Top="89" Width="305" FontSize="18" HorizontalContentAlignment="Center"/>
+        <Button x:Name="Add_Button" Content="Add" Canvas.Left="60" Canvas.Top="325" Width="65" FontSize="16" Click="Add_Button_Click"/>
+    </Canvas>
+</UserControl>
