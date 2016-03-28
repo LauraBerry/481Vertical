@@ -9,9 +9,9 @@
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
         <Label Content="2016" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0"/>
         <ListBox Height="200" Canvas.Left="60" Canvas.Top="120" Width="336" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black">
-            <Button x:Name="Apple_Button" Background="#FF0FA624" Content="Apple" Height="40" Width="306" FontSize="16"/>
-            <Button Background="#FF0FA624" Content="..." Height="40" Width="306" FontSize="16"/>
-            <Button x:Name="Pomegranit_Button" Background="#FF0FA624" Content="Carrot" Height="40" Width="306" FontSize="16" Click="Pomegranit_Button_Click"/>
+            <Button x:Name="Apple_Button" Background="#FF309335" Content="Apple" Height="40" Width="306" FontSize="16"/>
+            <Button Background="#FF309335" Content="..." Height="40" Width="306" FontSize="16"/>
+            <Button x:Name="Pomegranit_Button" Background="#FF309335" Content="Carrot" Height="40" Width="306" FontSize="16" Click="Pomegranit_Button_Click"/>
         </ListBox>
         <TextBox x:Name="_2016Notes" Height="200" Canvas.Left="462" TextWrapping="Wrap" Text="" Canvas.Top="120" Width="305" BorderBrush="Black" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
         <Button x:Name="Remove_Button" Content="Remove" Canvas.Left="331" Canvas.Top="325" Width="65" FontSize="16" Click="Remove_Button_Click"/>

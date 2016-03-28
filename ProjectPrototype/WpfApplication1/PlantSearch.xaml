@@ -7,14 +7,18 @@
              d:DesignHeight="452" d:DesignWidth="813">
     <Canvas x:Name="PlantCategoryCanvas" Background="#FFE6FFE5">
         <ListBox x:Name="Categories" Height="215" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button x:Name="FruitCategory" Background="#FF0F8B42" Content="Fruit" Height="46" Width="500" FontSize="20" Click="FruitCategory_Click"/>
-            <Button x:Name="VeggieCategory" Background="#FF0F8B42" Content="Vegetables" Height="46" Width="500" FontSize="20" Click="VeggieCategory_Click"/>
-            <Button x:Name="Flowers" Background="#FF0F8B42" Content="Flowers" Height="46" Width="500" FontSize="20" Click="Flowers_Click"/>
-            <Button x:Name="Herbs" Background="#FF0F8B42" Content="Herbs" Height="46" Width="500" FontSize="20" Click="Herbs_Click"/>
+            <Button x:Name="FruitCategory" Background="#FF309335" Content="Fruit" Height="46" Width="500" FontSize="20" Click="FruitCategory_Click"/>
+            <Button x:Name="VeggieCategory" Background="#FF309335" Content="Vegetables" Height="46" Width="500" FontSize="20" Click="VeggieCategory_Click"/>
+            <Button x:Name="Flowers" Background="#FF309335" Content="Flowers" Height="46" Width="500" FontSize="20" Click="Flowers_Click"/>
+            <Button x:Name="Herbs" Background="#FF309335" Content="Herbs" Height="46" Width="500" FontSize="20" Click="Herbs_Click"/>
         </ListBox>
-        <Label Content="Plants" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center"/>
+        <Label Content="Plants" Canvas.Left="274" Canvas.Top="16" Width="251" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center"/>
         <TextBox Height="32" Canvas.Left="101" TextWrapping="Wrap" Text="" Canvas.Top="327" Width="481" Background="#FFF7F9F7" BorderBrush="Black"/>
         <Button Content="Search" Canvas.Left="587" Canvas.Top="327" Width="106" Height="32" Click="Button_Click_1"/>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
+        <Image Height="67" Canvas.Left="101" Canvas.Top="21" Width="70" Source="fruit.jpg"/>
+        <Image Height="67" Canvas.Left="199" Canvas.Top="21" Width="70" Source="vegetable.jpg"/>
+        <Image Height="67" Canvas.Left="530" Canvas.Top="16" Width="70" Source="flower.jpg"/>
+        <Image Height="67" Canvas.Left="622" Canvas.Top="10" Width="70" Source="Heb.jpg"/>
     </Canvas>
 </UserControl>
