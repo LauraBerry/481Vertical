@@ -42,5 +42,20 @@ namespace WpfApplication1
         {
             Switcher.Switch(Pages.appleInfo);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.grapeInfo);
+        }
+
+        private void Peach_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.peachInfo);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.RhubarbInfo);
+        }
     }
 }

@@ -9,9 +9,9 @@
         <Label Content="Fruit" Canvas.Left="190" Canvas.Top="21" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
             <Button x:Name="Apple_Button" Background="#FF309335" Content="Apple (Granny Smith)" Height="46" Width="500" FontSize="20" Click="Apple_Button_Click" BorderBrush="Black" BorderThickness="2"/>
-            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
-            <Button x:Name="Pomegranit_Button" Background="#FF309335" Content="Pomegranate" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black"/>
-            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
+            <Button Background="#FF309335" Content="Grape (Chancellor)" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1"/>
+            <Button x:Name="Peach_Button" Background="#FF309335" Content="Peach" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Peach_Button_Click"/>
+            <Button Background="#FF309335" Content="Rhubarb" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_2"/>
         </ListBox>
         <Image Height="67" Canvas.Left="101" Canvas.Top="21" Width="70" Source="fruit.jpg"/>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>

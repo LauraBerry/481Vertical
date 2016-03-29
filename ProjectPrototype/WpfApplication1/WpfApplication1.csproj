@@ -79,6 +79,9 @@
     <Compile Include="Ginger.xaml.cs">
       <DependentUpon>Ginger.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GrapeInfo.xaml.cs">
+      <DependentUpon>GrapeInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HorseradishInformationPage.xaml.cs">
       <DependentUpon>HorseradishInformationPage.xaml</DependentUpon>
     </Compile>
@@ -114,8 +117,14 @@
     <Compile Include="PansyInfo.xaml.cs">
       <DependentUpon>PansyInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PeachInfo.xaml.cs">
+      <DependentUpon>PeachInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RemoveFromGarden.xaml.cs">
       <DependentUpon>RemoveFromGarden.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ruhbarbInfo.xaml.cs">
+      <DependentUpon>ruhbarbInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
     <Compile Include="FlowersList.xaml.cs">
@@ -178,6 +187,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Ginger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GrapeInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -261,6 +274,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PeachInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PlantSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -278,6 +295,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="AfricanVioletInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ruhbarbInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -372,6 +393,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="beet-02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="grapes-purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="peachwide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rhubarb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -39,5 +39,8 @@ namespace WpfApplication1
         public static oreganoInfo oregInfo = new oreganoInfo();
         public static Artichoke artiInfo = new Artichoke();
         public static BeetInfo beetInfo = new BeetInfo();
+        public static GrapeInfo grapeInfo = new GrapeInfo();
+        public static PeachInfo peachInfo = new PeachInfo();
+        public static ruhbarbInfo RhubarbInfo = new ruhbarbInfo();
     }
 }

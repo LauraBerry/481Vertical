@@ -342,3 +342,9 @@ D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\P
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\Artichoke.g.cs
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BeetInfo.baml
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BeetInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\GrapeInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\GrapeInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\PeachInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\PeachInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\ruhbarbInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\ruhbarbInfo.g.cs
