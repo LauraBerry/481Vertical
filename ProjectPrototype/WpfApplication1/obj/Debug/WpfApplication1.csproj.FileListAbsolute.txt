@@ -322,3 +322,13 @@ D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\P
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\AfricanVioletInformation.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\AfricanVioletInformation.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\DaffodilInfoPage.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\DaffodilInfoPage.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\EdelwiessInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\EdelwiessInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\PansyInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\PansyInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BasilInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BasilInfo.g.cs

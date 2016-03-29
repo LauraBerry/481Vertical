@@ -58,6 +58,15 @@
     <Compile Include="AppleInfoPage.xaml.cs">
       <DependentUpon>AppleInfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BasilInfo.xaml.cs">
+      <DependentUpon>BasilInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DaffodilInfoPage.xaml.cs">
+      <DependentUpon>DaffodilInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EdelwiessInfo.xaml.cs">
+      <DependentUpon>EdelwiessInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HorseradishInformationPage.xaml.cs">
       <DependentUpon>HorseradishInformationPage.xaml</DependentUpon>
     </Compile>
@@ -87,6 +96,9 @@
       <DependentUpon>EmptySearch.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages.cs" />
+    <Compile Include="PansyInfo.xaml.cs">
+      <DependentUpon>PansyInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RemoveFromGarden.xaml.cs">
       <DependentUpon>RemoveFromGarden.xaml</DependentUpon>
     </Compile>
@@ -116,10 +128,25 @@
     <Compile Include="AddVegetable2016.xaml.cs">
       <DependentUpon>AddVegetable2016.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AfricanVioletInformation.xaml.cs">
+      <DependentUpon>AfricanVioletInformation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VegetableList.xaml.cs">
       <DependentUpon>VegetableList.xaml</DependentUpon>
     </Compile>
     <Page Include="AppleInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BasilInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DaffodilInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EdelwiessInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -195,6 +222,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="PansyInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PlantSearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -210,6 +241,10 @@
     <Page Include="AddVegetable2016.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AfricanVioletInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VegetableList.xaml">
       <SubType>Designer</SubType>
@@ -272,6 +307,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Heb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Africanviolet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="daffodil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Edelwiess.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pansy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="basil.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

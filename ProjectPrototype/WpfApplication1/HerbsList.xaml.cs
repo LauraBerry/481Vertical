@@ -29,5 +29,10 @@ namespace WpfApplication1
         {
             Switcher.Switch(Pages.pSearch);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.BasilInfo);
+        }
     }
 }

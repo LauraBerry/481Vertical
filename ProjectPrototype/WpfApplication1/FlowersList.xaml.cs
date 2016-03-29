@@ -36,7 +36,27 @@ namespace WpfApplication1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new PlantSearch());
+            Switcher.Switch(Pages.pSearch);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.afrViInfo);
+        }
+
+        private void Daisy_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.daffInfo);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.edelInfo);
+        }
+
+        private void Violet_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.pansyInfo);
         }
     }
 }

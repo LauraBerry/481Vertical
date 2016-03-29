@@ -8,7 +8,7 @@
     <Canvas Background="#FFE6FFE5">
         <Label Content="Herbs" Canvas.Left="190" Canvas.Top="21" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
+            <Button Background="#FF309335" Content="Basil" Height="45" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1"/>
             <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black"/>
             <Button x:Name="Mint_Button" Background="#FF309335" Content="Mint" Height="45" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
             <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black"/>

@@ -29,5 +29,10 @@ namespace WpfApplication1
         public static VegetableList veggieList = new VegetableList();
         public static CarrotRemoved cRemove2016 = new CarrotRemoved();
         public static HorseradishInformationPage hRadInfo = new HorseradishInformationPage();
+        public static AfricanVioletInformation afrViInfo = new AfricanVioletInformation();
+        public static DaffodilInfoPage daffInfo = new DaffodilInfoPage();
+        public static EdelwiessInfo edelInfo = new EdelwiessInfo();
+        public static PansyInfo pansyInfo = new PansyInfo();
+        public static BasilInfo BasilInfo = new BasilInfo();
     }
 }
