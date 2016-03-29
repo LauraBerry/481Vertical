@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="452" Width="813">
     <Canvas Background="#FFE6FFE5">
-        <Label Content="Add Fruit (2016)" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center"/>
+        <Label Content="Add Fruit (2016)" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
             <Button x:Name="Apple_Button" Background="#FF309335" Content="Apple" Height="46" Width="500" FontSize="20"/>
             <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20"/>

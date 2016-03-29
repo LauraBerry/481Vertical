@@ -9,7 +9,7 @@
         <ListBox x:Name="Categories" Height="262" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
         </ListBox>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
-        <Label Content="Search: " Canvas.Left="137" Canvas.Top="21" Width="278" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0"/>
+        <Label Content="Search: " Canvas.Left="137" Canvas.Top="21" Width="278" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" Foreground="#FF00321B"/>
         <Rectangle Fill="#FF368B16" Height="5" Canvas.Left="365" Stroke="Black" Canvas.Top="73" Width="284"/>
         <Label Content="- No Results -" Canvas.Left="240" Canvas.Top="175" FontFamily="Papyrus" FontSize="48" Foreground="#FFB9B9B9"/>
     </Canvas>

@@ -6,12 +6,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="452" Width="813">
     <Canvas Background="#FFE6FFE5">
-        <Label Content="Add Flower (2016)" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center"/>
+        <Label Content="Add Flower (2016)" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20"/>
-            <Button x:Name="Daisy_Button" Background="#FF309335" Content="Daisy" Height="46" Width="500" FontSize="20"/>
-            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20"/>
-            <Button x:Name="Violet_Button" Background="#FF309335" Content="Violet" Height="46" Width="500" FontSize="20"/>
+            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
+            <Button x:Name="Daisy_Button" Background="#FF309335" Content="Daisy" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
+            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="Violet_Button" Background="#FF309335" Content="Violet" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2"/>
         </ListBox>
         <Image Height="67" Canvas.Left="530" Canvas.Top="16" Width="70" Source="flower.jpg"/>
         <Button Content="Back" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" FontSize="16" Click="Button_Click"/>

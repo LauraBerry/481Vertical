@@ -7,7 +7,7 @@
              d:DesignHeight="452" Width="813">
     <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE6FFE5">
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
-        <Label Content="2016" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0"/>
+        <Label Content="2016" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" Foreground="#FF00321B"/>
         <Button x:Name="Remove_Button" Content="Remove" Canvas.Left="340" Canvas.Top="342" Width="173" FontSize="16" Height="39" Click="Remove_Button_Click"/>
         <ListBox Height="225" Canvas.Left="92" Canvas.Top="100" Width="675" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="Black">
             <CheckBox Content="Apple" Height="36" Width="590" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="24"/>
