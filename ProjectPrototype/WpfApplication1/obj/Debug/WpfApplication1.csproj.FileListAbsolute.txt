@@ -332,3 +332,13 @@ D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\P
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\PansyInfo.g.cs
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BasilInfo.baml
 D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BasilInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\DillInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\DillInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\Ginger.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\Ginger.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\oreganoInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\oreganoInfo.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\Artichoke.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\Artichoke.g.cs
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BeetInfo.baml
+D:\laura's documents\school\Computer science\cpsc 481\project\Vertical\Project\ProjectPrototype\WpfApplication1\obj\Debug\BeetInfo.g.cs

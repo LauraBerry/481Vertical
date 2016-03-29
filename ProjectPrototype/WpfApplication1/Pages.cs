@@ -34,5 +34,10 @@ namespace WpfApplication1
         public static EdelwiessInfo edelInfo = new EdelwiessInfo();
         public static PansyInfo pansyInfo = new PansyInfo();
         public static BasilInfo BasilInfo = new BasilInfo();
+        public static DillInfo dillInfo = new DillInfo();
+        public static Ginger gingInfo = new Ginger();
+        public static oreganoInfo oregInfo = new oreganoInfo();
+        public static Artichoke artiInfo = new Artichoke();
+        public static BeetInfo beetInfo = new BeetInfo();
     }
 }

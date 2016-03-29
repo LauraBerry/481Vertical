@@ -34,5 +34,20 @@ namespace WpfApplication1
         {
             Switcher.Switch(Pages.BasilInfo);
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.dillInfo);
+        }
+
+        private void Ginger_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.gingInfo);
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.oregInfo);
+        }
     }
 }

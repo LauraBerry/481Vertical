@@ -8,8 +8,8 @@
     <Canvas x:Name="VeggieListCanvasS" Background="#FFE6FFE5">
         <Label Content="Vegetables" Canvas.Left="269" Canvas.Top="21" Width="313" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button x:Name="Asparagus_Button" Background="#FF309335" Content="Asparagus" Height="46" Width="500" FontSize="18" BorderBrush="Black" BorderThickness="2"/>
-            <Button Background="#FF309335" Content="..." Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="Artichoke_Button" Background="#FF309335" Content="Artichoke" Height="46" Width="500" FontSize="18" BorderBrush="Black" BorderThickness="2" Click="Artichoke_Button_Click"/>
+            <Button Background="#FF309335" Content="Beet" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Button_Click_1"/>
             <Button x:Name="Carrot_Button" Background="#FF309335" Content="Carrot" Height="46" Width="500" FontSize="20" Click="Carrot_Button_Click" BorderBrush="Black" BorderThickness="2"/>
             <Button Background="#FF309335" Content="Horseradish" Height="46" Width="500" FontSize="20" Click="Horseradish_Click" BorderThickness="2" BorderBrush="Black"/>
         </ListBox>

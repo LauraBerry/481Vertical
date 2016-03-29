@@ -49,5 +49,15 @@ namespace WpfApplication1
             Switcher.Switch(Pages.hRadInfo);
         }
 
+        private void Artichoke_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.artiInfo);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.beetInfo);
+        }
+
     }
 }

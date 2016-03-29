@@ -58,14 +58,26 @@
     <Compile Include="AppleInfoPage.xaml.cs">
       <DependentUpon>AppleInfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Artichoke.xaml.cs">
+      <DependentUpon>Artichoke.xaml</DependentUpon>
+    </Compile>
     <Compile Include="BasilInfo.xaml.cs">
       <DependentUpon>BasilInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BeetInfo.xaml.cs">
+      <DependentUpon>BeetInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="DaffodilInfoPage.xaml.cs">
       <DependentUpon>DaffodilInfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DillInfo.xaml.cs">
+      <DependentUpon>DillInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EdelwiessInfo.xaml.cs">
       <DependentUpon>EdelwiessInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ginger.xaml.cs">
+      <DependentUpon>Ginger.xaml</DependentUpon>
     </Compile>
     <Compile Include="HorseradishInformationPage.xaml.cs">
       <DependentUpon>HorseradishInformationPage.xaml</DependentUpon>
@@ -94,6 +106,9 @@
     <Compile Include="Garden2015.xaml.cs" />
     <Compile Include="EmptySearch.xaml.cs">
       <DependentUpon>EmptySearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="oreganoInfo.xaml.cs">
+      <DependentUpon>oreganoInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages.cs" />
     <Compile Include="PansyInfo.xaml.cs">
@@ -138,7 +153,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Artichoke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BasilInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BeetInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,7 +169,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DillInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EdelwiessInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ginger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -221,6 +252,10 @@
     <Page Include="EmptySearch.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="oreganoInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PansyInfo.xaml">
       <SubType>Designer</SubType>
@@ -322,6 +357,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="basil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ginger Plant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Oregano2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="artichoke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="beet-02.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
