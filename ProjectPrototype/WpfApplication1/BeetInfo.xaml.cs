@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _BeetNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.veggieList.beetNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.veggieList);
         }
     }

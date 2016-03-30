@@ -17,6 +17,6 @@
                    Poisonus: No 
                    " Canvas.Top="98" Height="156" Width="307" FontSize="22"/>
         <Label Content="Notes" Canvas.Left="145" Canvas.Top="276" Width="310" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Papyrus" FontWeight="Bold"/>
-        <Button Content="Gardens With..." Canvas.Left="576" Canvas.Top="317" Width="163" Height="104" Click="Button_Click_1"/>
+        <Button Content="Gardens With..." Canvas.Left="576" Canvas.Top="317" Width="163" Height="104"/>
     </Canvas>
 </UserControl>

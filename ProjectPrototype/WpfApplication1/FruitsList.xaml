@@ -7,11 +7,31 @@
              d:DesignHeight="452" Width="813">
     <Canvas Background="#FFE6FFE5">
         <Label Content="Fruit" Canvas.Left="190" Canvas.Top="21" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
-        <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button x:Name="Apple_Button" Background="#FF309335" Content="Apple (Granny Smith)" Height="46" Width="500" FontSize="20" Click="Apple_Button_Click" BorderBrush="Black" BorderThickness="2"/>
-            <Button Background="#FF309335" Content="Grape (Chancellor)" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1"/>
-            <Button x:Name="Peach_Button" Background="#FF309335" Content="Peach" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Peach_Button_Click"/>
-            <Button Background="#FF309335" Content="Rhubarb" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_2"/>
+        <ListBox Height="332" Canvas.Left="101" Canvas.Top="93" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
+            <Button x:Name="Apple_Button" Background="#FF309335" Height="46" Width="500" FontSize="20" Click="Apple_Button_Click" BorderBrush="Black" BorderThickness="2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="150,0,100,0">Apple (Granny Smith)</TextBlock>
+                    <Image x:Name="appleNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="150,0,130,0">Grape (Chancellor)</TextBlock>
+                    <Image x:Name="grapeNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Peach_Button" Background="#FF309335" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Peach_Button_Click">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="190,0,190,0">Peach</TextBlock>
+                    <Image x:Name="peachNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="180,0,180,0">Rhubarb</TextBlock>
+                    <Image x:Name="rhubarbNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <Image Height="67" Canvas.Left="101" Canvas.Top="21" Width="70" Source="fruit.jpg"/>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>

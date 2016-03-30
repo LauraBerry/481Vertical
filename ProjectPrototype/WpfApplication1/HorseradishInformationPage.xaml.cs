@@ -39,12 +39,11 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _HorseradishNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.veggieList.horseradishNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.veggieList);
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

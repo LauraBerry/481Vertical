@@ -8,10 +8,30 @@
     <Canvas x:Name="VeggieListCanvasS" Background="#FFE6FFE5">
         <Label Content="Vegetables" Canvas.Left="269" Canvas.Top="21" Width="313" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button x:Name="Artichoke_Button" Background="#FF309335" Content="Artichoke" Height="46" Width="500" FontSize="18" BorderBrush="Black" BorderThickness="2" Click="Artichoke_Button_Click"/>
-            <Button Background="#FF309335" Content="Beet" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Button_Click_1"/>
-            <Button x:Name="Carrot_Button" Background="#FF309335" Content="Carrot" Height="46" Width="500" FontSize="20" Click="Carrot_Button_Click" BorderBrush="Black" BorderThickness="2"/>
-            <Button Background="#FF309335" Content="Horseradish" Height="46" Width="500" FontSize="20" Click="Horseradish_Click" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="Artichoke_Button" Background="#FF309335" Height="46" Width="500" FontSize="18" BorderBrush="Black" BorderThickness="2" Click="Artichoke_Button_Click">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,170,0">Artichoke</TextBlock>
+                    <Image x:Name="artichokeNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Button_Click_1">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="210,0,190,0">Beet</TextBlock>
+                    <Image x:Name="beetNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Carrot_Button" Background="#FF309335" Height="46" Width="500" FontSize="20" Click="Carrot_Button_Click" BorderBrush="Black" BorderThickness="2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,190,0">Carrot</TextBlock>
+                    <Image x:Name="carrotNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" Click="Horseradish_Click" BorderThickness="2" BorderBrush="Black">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="180,0,160,0">Horseradish</TextBlock>
+                    <Image x:Name="horseradishNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <Image Height="67" Canvas.Left="199" Canvas.Top="21" Width="70" Source="vegetable.jpg"/>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>

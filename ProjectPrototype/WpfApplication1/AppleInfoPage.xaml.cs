@@ -30,6 +30,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _GrannySmithNotes.Text;
+            if(myNotes!=" " && myNotes!="")
+            {
+                Pages.frList.appleNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.frList);
         }
     }

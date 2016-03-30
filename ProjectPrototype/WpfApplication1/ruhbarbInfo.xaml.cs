@@ -39,6 +39,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _RhubarbNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.frList.rhubarbNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.frList);
         }
     }
