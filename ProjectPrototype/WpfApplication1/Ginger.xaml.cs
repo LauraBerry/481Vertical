@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _GingerNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.hList.gingerNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.hList);
         }
     }

@@ -39,6 +39,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _DaffodilNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.fList.daffodilNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

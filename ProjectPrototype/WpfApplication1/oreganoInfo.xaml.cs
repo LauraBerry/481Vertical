@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _OreganoNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.hList.oreganoNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.hList);
         }
     }

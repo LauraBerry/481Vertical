@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _BasilNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.hList.basilNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.hList);
         }
     }

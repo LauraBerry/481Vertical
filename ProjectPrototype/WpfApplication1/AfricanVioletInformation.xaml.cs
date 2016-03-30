@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _AfricanVioletNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.fList.violetNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

@@ -38,6 +38,10 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _EdelWiessNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.fList.edelswiessNote.Visibility = Visibility.Visible;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

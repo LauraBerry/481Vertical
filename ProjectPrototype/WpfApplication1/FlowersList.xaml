@@ -8,10 +8,30 @@
     <Canvas Background="#FFE6FFE5">
         <Label Content="Flowers" Canvas.Left="190" Canvas.Top="21" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button Background="#FF309335" Content="African Violet" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1"/>
-            <Button x:Name="Daisy_Button" Background="#FF309335" Content="Daffodil" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Daisy_Button_Click"/>
-            <Button Background="#FF309335" Content="Edelwiess" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_2"/>
-            <Button x:Name="Violet_Button" Background="#FF309335" Content="Pansy" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Violet_Button_Click"/>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_1">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,130,0">African Violet</TextBlock>
+                    <Image x:Name="violetNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Daisy_Button" Background="#FF309335" Height="46" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black" Click="Daisy_Button_Click">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,180,0">Daffodil</TextBlock>
+                    <Image x:Name="daffodilNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Button_Click_2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,160,0">Edelwiess</TextBlock>
+                    <Image x:Name="edelswiessNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Violet_Button" Background="#FF309335" Height="46" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2" Click="Violet_Button_Click">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,190,0">Pansy</TextBlock>
+                    <Image x:Name="pansyNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <Image Height="67" Canvas.Left="530" Canvas.Top="16" Width="70" Source="flower.jpg"/>
         <Button Content="Back" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" FontSize="16" Click="Button_Click"/>
