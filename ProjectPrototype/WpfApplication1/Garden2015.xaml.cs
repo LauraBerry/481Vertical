@@ -20,7 +20,7 @@ namespace WpfApplication1
     /// </summary>
     public partial class Garden2015 : UserControl,Switchable
     {
-        public String myNotes = "Never plant Mint again, it takes over everything and is very hard to get rid of!";
+        public String myNotes = "Never plant Ginger again, it takes over everything and is very hard to get rid of!";
         public Garden2015()
         {
             this.InitializeComponent();
@@ -39,17 +39,55 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _2015Notes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.myHomePage);
         }
 
         private void Add_Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            myNotes = _2015Notes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Remove_Button_Click(object sender, RoutedEventArgs e)
         {
+            myNotes = _2015Notes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Hidden;
+            }
             
+        }
+
+        private void Mint_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.gingInfo);
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2015Note.Visibility = Visibility.Hidden;
+            }
         }
     }
 }

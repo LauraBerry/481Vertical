@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.fList.pansyNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.fList.pansyNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

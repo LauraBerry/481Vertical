@@ -33,6 +33,12 @@ namespace WpfApplication1
             if(myNotes!=" " && myNotes!="")
             {
                 Pages.frList.appleNote.Visibility = Visibility.Visible;
+                Pages.g2016._appleNote.Visibility = Visibility.Visible;
+            } 
+            else
+            {
+                Pages.frList.appleNote.Visibility = Visibility.Hidden;
+                Pages.g2016._appleNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.frList);
         }

@@ -43,6 +43,10 @@ namespace WpfApplication1
             {
                 Pages.veggieList.horseradishNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.veggieList.horseradishNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.veggieList);
         }
     }

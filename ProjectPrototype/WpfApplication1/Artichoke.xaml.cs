@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.veggieList.artichokeNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.veggieList.artichokeNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.veggieList);
         }
     }

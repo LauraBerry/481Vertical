@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.hList.oreganoNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.hList.oreganoNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.hList);
         }
     }

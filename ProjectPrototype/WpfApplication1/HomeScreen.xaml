@@ -7,8 +7,18 @@
              d:DesignHeight="452" Width="813">
     <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE6FFE5">
         <ListBox x:Name="GardenList" Height="295" Canvas.Left="29" Canvas.Top="118" Width="348" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="#FF111F00" Foreground="#FF014F16" Background="#FFC1F1BF" BorderThickness="4">
-            <Button x:Name="_2016Garden" Background="#FF309335" Content="2016" Height="78" Width="305" FontSize="48" Click="_2016Garden_Click" FontFamily="Papyrus" BorderThickness="4" BorderBrush="#FF0E0101"/>
-            <Button Background="#FF309335" Content="2015" Height="78" Width="305" FontSize="48" FontFamily="Papyrus" Click="Button_Click" BorderThickness="4" BorderBrush="Black"/>
+            <Button x:Name="_2016Garden" Background="#FF309335" Height="78" Width="305" FontSize="48" Click="_2016Garden_Click" FontFamily="Papyrus" BorderThickness="4" BorderBrush="#FF0E0101">
+                <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="100,0,30,0">2016</TextBlock>
+                    <Image x:Name="_2016Note" Source="note Icone 1.jpg" Stretch="Fill" Height="62" Width="55" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="78" Width="305" FontSize="48" FontFamily="Papyrus" Click="Button_Click" BorderThickness="4" BorderBrush="Black">
+                <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="100,0,30,0">2015</TextBlock>
+                    <Image x:Name="_2015Note" Source="note Icone 1.jpg" Stretch="Fill" Height="62" Width="55" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <Button x:Name="PlantCategories" Content="Plant Library" Canvas.Left="418" Canvas.Top="140" Width="347" Height="91" FontSize="36" Click="PlantCategories_Click" FontFamily="Papyrus" FontWeight="Bold" BorderBrush="#FF020400" Background="#FF309335" BorderThickness="4" />
         <Button x:Name="Create_NewGarden" Content="New Garden" Canvas.Left="418" Canvas.Top="288" Width="347" Height="91" FontSize="36" Background="#FF309335" Click="Create_NewGarden_Click" FontFamily="Papyrus" FontWeight="Bold" BorderBrush="#FF020400" BorderThickness="4"/>

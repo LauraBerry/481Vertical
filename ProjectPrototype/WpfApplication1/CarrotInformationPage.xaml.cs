@@ -42,6 +42,12 @@ namespace WpfApplication1
             if (myNotes != " " && myNotes != "")
             {
                 Pages.veggieList.carrotNote.Visibility = Visibility.Visible;
+                Pages.g2016._carrotNote.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.veggieList.carrotNote.Visibility = Visibility.Hidden;
+                Pages.g2016._carrotNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.veggieList);
         }
@@ -52,6 +58,12 @@ namespace WpfApplication1
             if (myNotes != " " && myNotes != "")
             {
                 Pages.veggieList.carrotNote.Visibility = Visibility.Visible;
+                Pages.g2016._carrotNote.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.veggieList.carrotNote.Visibility = Visibility.Hidden;
+                Pages.g2016._carrotNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.gWithCarrot);
         }

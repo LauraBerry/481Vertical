@@ -43,6 +43,10 @@ namespace WpfApplication1
             {
                 Pages.frList.rhubarbNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.frList.rhubarbNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.frList);
         }
     }

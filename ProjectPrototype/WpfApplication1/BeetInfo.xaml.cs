@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.veggieList.beetNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.veggieList.beetNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.veggieList);
         }
     }

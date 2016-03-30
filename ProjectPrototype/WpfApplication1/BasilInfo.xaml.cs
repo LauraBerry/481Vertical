@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.hList.basilNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.hList.basilNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.hList);
         }
     }

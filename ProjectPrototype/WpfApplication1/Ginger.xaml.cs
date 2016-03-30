@@ -40,7 +40,13 @@ namespace WpfApplication1
             myNotes = _GingerNotes.Text;
             if (myNotes != " " && myNotes != "")
             {
-                Pages.hList.gingerNote.Visibility = Visibility.Visible;
+                Pages.hList._gingerNote.Visibility = Visibility.Visible;
+                Pages.g2015._gingerNote.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.hList._gingerNote.Visibility = Visibility.Hidden;
+                Pages.g2015._gingerNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.hList);
         }

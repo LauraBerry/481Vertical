@@ -43,6 +43,10 @@ namespace WpfApplication1
             {
                 Pages.fList.daffodilNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.fList.daffodilNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

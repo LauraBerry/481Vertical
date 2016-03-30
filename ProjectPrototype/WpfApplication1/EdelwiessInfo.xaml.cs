@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.fList.edelswiessNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.fList.edelswiessNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.fList);
         }
     }

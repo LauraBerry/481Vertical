@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.frList.peachNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.frList.peachNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.frList);
         }
     }

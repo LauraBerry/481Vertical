@@ -40,25 +40,49 @@ namespace WpfApplication1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _2016Notes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.myHomePage);
         }
 
         private void Add_Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _2016Notes.Text;
-            Switcher.Switch(new AddPlant2016());
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Hidden;
+            }
+            Switcher.Switch(Pages.aPlant2016);
         }
 
         private void Remove_Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _2016Notes.Text;
-            Switcher.Switch(new RemoveFromGarden());
+            Switcher.Switch(Pages.rmvfrmGarden);
         }
 
         private void Pomegranit_Button_Click(object sender, RoutedEventArgs e)
         {
             myNotes = _2016Notes.Text;
-            Switcher.Switch(new CarrotInformationPage());
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.myHomePage._2016Note.Visibility = Visibility.Hidden;
+            }
+            Switcher.Switch(Pages.carrotInfo);
         }
     }
 }

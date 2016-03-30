@@ -42,6 +42,10 @@ namespace WpfApplication1
             {
                 Pages.frList.grapeNote.Visibility = Visibility.Visible;
             }
+            else
+            {
+                Pages.frList.grapeNote.Visibility = Visibility.Hidden;
+            }
             Switcher.Switch(Pages.frList);
         }
     }
