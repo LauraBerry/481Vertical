@@ -110,7 +110,7 @@ namespace WpfApplication1 {
             return;
             case 4:
             
-            #line 16 "..\..\AddVegetable2016.xaml"
+            #line 17 "..\..\AddVegetable2016.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default

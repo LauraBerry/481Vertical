@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="452" Width="813">
     <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE9E9FF">
-        <ListBox x:Name="GardenList" Height="295" Canvas.Left="29" Canvas.Top="118" Width="348" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="#FF111F00" Foreground="#FF014F16" Background="#FFEFF5EF" BorderThickness="4">
+        <ListBox x:Name="GardenList" Height="295" Canvas.Left="29" Canvas.Top="118" Width="348" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="#FF111F00" Foreground="#FF014F16" Background="#FFE9E9FF" BorderThickness="4">
             <Button x:Name="_2016Garden" Background="#FF309335" Height="78" Width="305" FontSize="48" Click="_2016Garden_Click" FontFamily="Papyrus" BorderThickness="4" BorderBrush="#FF0E0101">
                 <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock Margin="100,0,30,0">2016</TextBlock>
