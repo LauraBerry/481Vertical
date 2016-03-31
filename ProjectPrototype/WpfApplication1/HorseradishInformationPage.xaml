@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
               d:DesignHeight="452" Width="813">
-    <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE6FFE5">
+    <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE9E9FF">
         <Label Content="Horseradish" Canvas.Left="190" Canvas.Top="16" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Foreground="#FF00321B"/>
         <Button Content="Back" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
         <Image Height="156" Canvas.Left="91" Canvas.Top="98" Width="208" Source="horseradish-root.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>

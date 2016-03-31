@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="452" d:DesignWidth="813">
-    <Canvas x:Name="PlantCategoryCanvas" Background="#FFE6FFE5">
+    <Canvas x:Name="PlantCategoryCanvas" Background="#FFE9E9FF">
         <ListBox x:Name="Categories" Height="215" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
             <Button x:Name="FruitCategory" Background="#FF309335" Content="Fruit" Height="46" Width="500" FontSize="20" Click="FruitCategory_Click" BorderThickness="2" BorderBrush="Black"/>
             <Button x:Name="VeggieCategory" Background="#FF309335" Content="Vegetables" Height="46" Width="500" FontSize="20" Click="VeggieCategory_Click" BorderBrush="Black" BorderThickness="2"/>
