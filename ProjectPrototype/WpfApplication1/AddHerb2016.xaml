@@ -8,10 +8,30 @@
     <Canvas Background="#FFE9E9FF">
         <Label Content="Add Herb (2016)" Canvas.Left="190" Canvas.Top="21" Width="392" FontSize="48" FontFamily="Freestyle Script" HorizontalAlignment="Center" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Height="62" Foreground="#FF00321B"/>
         <ListBox Height="332" Canvas.Left="101" Canvas.Top="88" Width="592" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="Black">
-            <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20"/>
-            <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20"/>
-            <Button x:Name="Mint_Button" Background="#FF309335" Content="Mint" Height="45" Width="500" FontSize="20"/>
-            <Button Background="#FF309335" Content="..." Height="45" Width="500" FontSize="20"/>
+            <Button Background="#FF309335" Height="45" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="230,0,170,0">Basil</TextBlock>
+                    <Image x:Name="basilNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="45" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="230,0,190,0">Dill</TextBlock>
+                    <Image x:Name="dillNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button x:Name="Ginger_Button" Background="#FF309335" Height="45" Width="500" FontSize="20" BorderBrush="Black" BorderThickness="2">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="220,0,170,0">Ginger</TextBlock>
+                    <Image x:Name="_gingerNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
+            <Button Background="#FF309335" Height="45" Width="500" FontSize="20" BorderThickness="2" BorderBrush="Black">
+                <StackPanel Orientation="Horizontal" Width="490" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="200,0,170,0">Oregano</TextBlock>
+                    <Image x:Name="oreganoNote" Source="note Icone 1.jpg" Stretch="Fill" Height="41" Width="40" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <Image Height="67" Canvas.Left="622" Canvas.Top="10" Width="70" Source="Heb.jpg"/>
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>

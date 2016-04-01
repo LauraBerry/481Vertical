@@ -9,8 +9,12 @@
         <Button Content="Back" FontSize="16" Canvas.Left="22" Canvas.Top="16" Width="75" Height="28" Click="Button_Click"/>
         <Label Content="2016" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" Foreground="#FF00321B"/>
         <ListBox Height="200" Canvas.Left="60" Canvas.Top="120" Width="336" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black">
-            <Button x:Name="Apple_Button" Background="#FF309335" Content="Apple" Height="40" Width="306" FontSize="16" BorderBrush="Black" BorderThickness="2"/>
-            <Button Background="#FF309335" Content="..." Height="40" Width="306" FontSize="16" BorderThickness="2" BorderBrush="Black"/>
+            <Button x:Name="Apple_Button" Background="#FF309335"  Height="40" Width="306" FontSize="16" BorderBrush="Black" BorderThickness="2">
+                <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Margin="80,0,70,0"><Run Text="Apple (Granny Smith)"/></TextBlock>
+                    <Image x:Name="_appleNote" Source="note Icone 1.jpg" Stretch="Fill" Height="33" Width="38" Visibility="Hidden" />
+                </StackPanel>
+            </Button>
         </ListBox>
         <TextBox Height="200" Canvas.Left="462" TextWrapping="Wrap" Text="" Canvas.Top="120" Width="305" BorderBrush="Black"/>
         <Button x:Name="Remove_Button" Content="Remove" Canvas.Left="331" Canvas.Top="325" Width="65" FontSize="16" Click="Remove_Button_Click"/>

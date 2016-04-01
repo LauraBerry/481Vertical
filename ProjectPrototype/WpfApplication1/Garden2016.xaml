@@ -11,14 +11,13 @@
         <ListBox Height="200" Canvas.Left="60" Canvas.Top="120" Width="336" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black">
             <Button x:Name="Apple_Button" Background="#FF309335"  Height="40" Width="306" FontSize="16" BorderBrush="Black" BorderThickness="2">
                 <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Margin="130,0,70,0">apple</TextBlock>
+                    <TextBlock Margin="80,0,70,0"><Run Text="Apple (Granny Smith)"/></TextBlock>
                     <Image x:Name="_appleNote" Source="note Icone 1.jpg" Stretch="Fill" Height="33" Width="38" Visibility="Hidden" />
                 </StackPanel>
             </Button>
-            <Button Background="#FF309335" Content="..." Height="40" Width="306" FontSize="16" BorderBrush="Black" BorderThickness="2"/>
             <Button x:Name="Pomegranit_Button" Background="#FF309335"  Height="40" Width="306" FontSize="16" Click="Pomegranit_Button_Click" BorderBrush="Black" BorderThickness="2">
                 <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Margin="130,0,90,0">Carot</TextBlock>
+                    <TextBlock Margin="130,0,90,0">Carrot</TextBlock>
                     <Image x:Name="_carrotNote" Source="note Icone 1.jpg" Stretch="Fill" Height="37" Width="33" Visibility="Hidden" />
                 </StackPanel>
             </Button>
