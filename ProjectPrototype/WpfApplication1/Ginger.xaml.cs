@@ -42,11 +42,13 @@ namespace WpfApplication1
             {
                 Pages.hList._gingerNote.Visibility = Visibility.Visible;
                 Pages.g2015._gingerNote.Visibility = Visibility.Visible;
+                Pages.aHerb2016._gingerNote.Visibility = Visibility.Visible;
             }
             else
             {
                 Pages.hList._gingerNote.Visibility = Visibility.Hidden;
                 Pages.g2015._gingerNote.Visibility = Visibility.Hidden;
+                Pages.aHerb2016._gingerNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.hList);
         }

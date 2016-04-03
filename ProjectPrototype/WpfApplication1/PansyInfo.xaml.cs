@@ -41,10 +41,12 @@ namespace WpfApplication1
             if (myNotes != " " && myNotes != "")
             {
                 Pages.fList.pansyNote.Visibility = Visibility.Visible;
+                Pages.aFlower2016.pansyNote.Visibility = Visibility.Visible;
             }
             else
             {
                 Pages.fList.pansyNote.Visibility = Visibility.Hidden;
+                Pages.aFlower2016.pansyNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.fList);
         }

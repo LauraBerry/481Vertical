@@ -44,5 +44,10 @@ namespace WpfApplication1
             Switcher.Switch(Pages.aPlant2016);
         }
 
+        private void Carrot_Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Pages.g2016);
+        }
+
     }
 }

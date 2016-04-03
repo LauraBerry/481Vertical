@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="452" Width="813">
-    <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFE9E9FF">
+    <Canvas x:Name="MainPage" RenderTransformOrigin="0,0" Margin="0,0,10,0" Background="#FFF0DED2">
         <Button Content="Back" FontSize="16" Canvas.Left="21" Canvas.Top="21" Width="75" Height="28" Click="Button_Click"/>
         <Label Content="2016" Canvas.Left="114" Canvas.Top="43" Width="600" FontSize="48" HorizontalContentAlignment="Center" FontFamily="Freestyle Script" Height="57" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" Foreground="#FF00321B"/>
         <ListBox Height="200" Canvas.Left="60" Canvas.Top="120" Width="336" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black">
             <Button x:Name="Apple_Button" Background="#FF309335"  Height="40" Width="306" FontSize="16" BorderBrush="Black" BorderThickness="2">
                 <StackPanel Orientation="Horizontal" Width="304" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Margin="80,0,70,0"><Run Text="Apple (Granny Smith)"/></TextBlock>
+                    <TextBlock Margin="80,0,30,0"><Run Text="Apple (Granny Smith)"/></TextBlock>
                     <Image x:Name="_appleNote" Source="note Icone 1.jpg" Stretch="Fill" Height="33" Width="38" Visibility="Hidden" />
                 </StackPanel>
             </Button>

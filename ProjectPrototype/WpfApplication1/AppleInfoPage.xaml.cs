@@ -34,13 +34,33 @@ namespace WpfApplication1
             {
                 Pages.frList.appleNote.Visibility = Visibility.Visible;
                 Pages.g2016._appleNote.Visibility = Visibility.Visible;
+                Pages.aFruit2016.appleNote.Visibility = Visibility.Visible;
             } 
             else
             {
                 Pages.frList.appleNote.Visibility = Visibility.Hidden;
                 Pages.g2016._appleNote.Visibility = Visibility.Hidden;
+                Pages.aFruit2016.appleNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.frList);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            myNotes = _GrannySmithNotes.Text;
+            if (myNotes != " " && myNotes != "")
+            {
+                Pages.frList.appleNote.Visibility = Visibility.Visible;
+                Pages.g2016._appleNote.Visibility = Visibility.Visible;
+                Pages.aFruit2016.appleNote.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Pages.frList.appleNote.Visibility = Visibility.Hidden;
+                Pages.g2016._appleNote.Visibility = Visibility.Hidden;
+                Pages.aFruit2016.appleNote.Visibility = Visibility.Hidden;
+            }
+            Switcher.Switch(Pages.gWithCarrot);
         }
     }
 }

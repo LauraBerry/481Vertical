@@ -42,10 +42,12 @@ namespace WpfApplication1
             if (myNotes != " " && myNotes != "")
             {
                 Pages.veggieList.horseradishNote.Visibility = Visibility.Visible;
+                Pages.aVeggie2016.horseradishNote.Visibility = Visibility.Visible;
             }
             else
             {
                 Pages.veggieList.horseradishNote.Visibility = Visibility.Hidden;
+                Pages.aVeggie2016.horseradishNote.Visibility = Visibility.Hidden;
             }
             Switcher.Switch(Pages.veggieList);
         }
